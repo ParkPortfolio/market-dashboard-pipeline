@@ -4,7 +4,7 @@ An end-to-end financial market analytics project built with **Python**, **Postgr
 
 ## Dashboard Preview
 
-![Market dashboard preview](Market_Overview_SS.png)
+![Market dashboard preview](Market_Overview_1.1.png)
 
 ## Project Overview
 
