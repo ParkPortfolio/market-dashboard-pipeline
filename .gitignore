@@ -1,0 +1,29 @@
+# PostgreSQL credentials
+
+.pgpass
+*.pgpass
+
+# Python cache files
+
+**pycache**/
+*.pyc
+*.pyo
+
+# macOS files
+
+.DS_Store
+
+# Local logs
+
+*.log
+
+# Environment files
+
+.env
+.venv/
+venv/
+
+# Tableau local files
+
+*.twb~
+*.hyper
