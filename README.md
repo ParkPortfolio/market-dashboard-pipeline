@@ -94,7 +94,28 @@ market-dashboard-pipeline/
 └── sql/
     └── create_stock_prices_table.sql
 ```
+## How to Run
 
+1. Install dependencies:
+
+   ```bash
+   python3 -m pip install -r requirements.txt
+   ```
+   
+2. Create the PostgreSQL table:
+
+   ```bash
+   psql -d market_dashboard -f sql/create_stock_prices_table.sql
+   ```
+   
+3. Run the updater:
+
+   ```bash
+   python3 scripts/update_market_data.py
+   ```
+   
+4. Connect Tableau to the PostgreSQL stock_prices table using a live connection:
+   
 ## Key Skills Demonstrated
 
 * Building an automated ETL-style data pipeline
